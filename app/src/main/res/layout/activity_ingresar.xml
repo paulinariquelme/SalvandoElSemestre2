@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingresar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="727dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="4dp">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese su correo electrónico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ingrese su contraseña"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/ingreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
